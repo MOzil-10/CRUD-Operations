@@ -11,8 +11,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class UserDto {
 
-    //we use this class to transfer the data between client and server
-
+    /**
+ * Represents a Data Transfer Object (DTO) for user information.
+ * Used to transfer user data between client and server.
+ */
     private long id;
     private String firstName;
     private String lastName;
